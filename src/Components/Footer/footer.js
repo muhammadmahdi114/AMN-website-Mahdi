@@ -54,7 +54,7 @@ export default function Footer() {
                     <img src="/youtube.svg" alt="Youtube" />
                 </div>
                 <div className="flex justify-between items-center text-xl">
-                    <span className="text-secondary">ایسوسی ایشن آف مشتاقان نور (امن)</span>
+                    <span className="text-secondary mr-2">ایسوسی ایشن آف مشتاقان نور (امن)</span>
                     <p>تمام حقوق ویب سائٹ پر محفوظ ہیں۔</p>
                     <p> ۲۰۲۴</p>
                 </div>
