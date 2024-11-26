@@ -27,18 +27,18 @@ export default function Home() {
                     <div className="flex lg:gap-x-48">
                         <div>
                             <img src="IC.png" alt="IC Class" className="h-40" />
-                            <h2 className="text-2xl mt-10 font-nastaleeqKasheeda">آی سی کلاسز</h2>
-                            <p className="text-xl text-[#4C4C4C]">عمر ۱۲ سے۱۵ سال</p>
+                            <h2 className="text-3xl mt-10 font-nastaleeqKasheeda">آی سی کلاسز</h2>
+                            <p className="text-lg mt-3 text-[#4C4C4C]">عمر ۱۲ سے۱۵ سال</p>
                         </div>
                         <div>
                             <img src="Pre-IC.png" alt="IC Class" className="h-40" />
-                            <h2 className="text-2xl mt-10 font-nastaleeqKasheeda">پری آی سی کلاسز</h2>
-                            <p className="text-xl text-[#4C4C4C]">عمر  ۹ سے ۱۱ سال</p>
+                            <h2 className="text-3xl mt-10 font-nastaleeqKasheeda">پری آی سی کلاسز</h2>
+                            <p className="text-lg mt-3 text-[#4C4C4C]">عمر  ۹ سے ۱۱ سال</p>
                         </div>
                         <div>
                             <img src="Quran-class.png" alt="IC Class" className="h-40" />
-                            <h2 className="text-2xl mt-10 font-nastaleeqKasheeda">قرآن کلاسز</h2>
-                            <p className="text-xl text-[#4C4C4C]">عمر ۶ سے۸ سال</p>
+                            <h2 className="text-3xl mt-10 font-nastaleeqKasheeda">قرآن کلاسز</h2>
+                            <p className="text-lg mt-3 text-[#4C4C4C]">عمر ۶ سے۸ سال</p>
                         </div>
                     </div>
                 </div>
