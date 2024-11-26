@@ -20,6 +20,8 @@ export default function Header() {
         } else if (currentPath === "/munasibat") {
             setActiveSection("مناسبات");
         }
+
+        window.scrollTo(0, 0);
     }, [location]);
 
     const menuItems = [
@@ -58,7 +60,7 @@ export default function Header() {
     return (
         <div className="fixed top-0 bg-primaryBG w-full h-28 flex items-center justify-center">
             {menuItems.map((item) => (
-                <div key={item.id} className="my-2">
+                <div key={item.id} className="my-2 font-nastaleeqRegular">
                     <button
                         onClick={() => handleMainItemClick(item)}
                         className={`relative flex text-lg font-semibold items-center gap-x-2 px-6 py-2 w-full 
@@ -75,7 +77,14 @@ export default function Header() {
                 </div>
             ))}
             <div className="absolute right-20 top-4">
-                <img src="logo.png" alt="Logo" className="h-20" />
+                <img
+                    src="logo.png"
+                    alt="Logo"
+                    className="h-20"
+                    onClick={() => {
+                        navigate("/");
+                    }}
+                />
             </div>
         </div>
     );

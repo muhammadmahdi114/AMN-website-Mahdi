@@ -6,7 +6,7 @@ export default function Tazakurat() {
         <>
 
             <Header />
-            <div className="bg-white min-h-screen 8 text-black">
+            <div className="bg-white min-h-screen mt-28 text-black">
                 Tazakurat
             </div>
             <Footer />
