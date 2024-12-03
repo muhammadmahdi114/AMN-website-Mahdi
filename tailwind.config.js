@@ -12,7 +12,7 @@ module.exports = {
       fontFamily: {
         nastaleeqKasheeda: ['"Jameel Noori Nastaleeq Kasheeda"', 'serif'],
         nastaleeqRegular: ['"Jameel Noori Nastaleeq Regular"', 'serif'],
-        alMajeed: ['"Al Majeed Quranic Font Regular"', 'serif']
+        alMajeed: ['"Al Majeed Quranic Font Regular"', 'serif'],
       },
     },
   },

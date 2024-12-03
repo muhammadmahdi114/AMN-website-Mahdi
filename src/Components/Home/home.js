@@ -10,7 +10,7 @@ export default function Home() {
                     <h1 className="font-nastaleeqKasheeda text-5xl">امیرالمومنین حضرت علی (ع) کا ارشاد گرامی ہے</h1>
                     <h2 className="font-alMajeed text-4xl mt-2">مَنْ کَلَّفَ بِالاَدَبِ قَلَّتْ مَسَاوِیہِ وَ مَنْ قَلَّ اَدَبُہُ کَثُرَتْ مَسَاوِیہِ</h2>
                     <p className="text-2xl">(غرر الحکم جلد ۱ صفحہ ۴۰۴)</p>
-                    <p className="text-2xl">جسے ٹھیک ٹھیک تربیت دی جائے گی وہ کم لڑکھڑائے گااور جس کی تربیت میں کسر رہ جائے گی وہ زیادہ ٹھوکریں کھائے گا۔</p>
+                    <p className="text-2xl ">جسے ٹھیک ٹھیک تربیت دی جائے گی وہ کم لڑکھڑائے گااور جس کی تربیت میں کسر رہ جائے گی وہ زیادہ ٹھوکریں کھائے گا۔</p>
                 </div>
                 <div className="bg-primaryBG flex flex-col justify-center items-center gap-y-8 py-10 rounded-lg">
                     <h1 className="font-nastaleeqKasheeda text-5xl">ایسوسی ایشن آف مشتاقان نور</h1>
