@@ -6,11 +6,10 @@
     src: url('./Assets/Fonts/Jameel Noori Nastaleeq Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-};
+}
 @font-face {
-    font-family: 'Al Majeed Quranic Font Regular';
-    src: url('./Assets/Fonts/Al Majeed Quranic Font Regular.ttf') format('truetype');
+    font-family: 'Al Majeed Quranic Font';
+    src: url('./Assets/Fonts/Al Majeed Quranic Font.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
