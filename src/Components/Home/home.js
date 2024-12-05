@@ -7,13 +7,13 @@ export default function Home() {
             <Header />
             <div className="bg-white min-h-screen mt-28 px-20 text-black text-center font-nastaleeqRegular">
                 <div className="flex flex-col justify-center items-center gap-y-8 py-20">
-                    <h1 className="font-nastaleeqKasheeda text-5xl">امیرالمومنین حضرت علی (ع) کا ارشاد گرامی ہے</h1>
-                    <h2 className="font-alMajeed text-4xl mt-2">مَنْ کَلَّفَ بِالاَدَبِ قَلَّتْ مَسَاوِیہِ وَ مَنْ قَلَّ اَدَبُہُ کَثُرَتْ مَسَاوِیہِ</h2>
-                    <p className="text-2xl">(غرر الحکم جلد ۱ صفحہ ۴۰۴)</p>
+                    <h1 className="font-nastaleeqKasheeda text-4xl">امیرالمومنین حضرت علی (ع) کا ارشاد گرامی ہے</h1>
+                    <h2 className="font-alMajeed text-3xl mt-2">مَنْ کَلَّفَ بِالاَدَبِ قَلَّتْ مَسَاوِیہِ وَ مَنْ قَلَّ اَدَبُہُ کَثُرَتْ مَسَاوِیہِ</h2>
+                    <p className="text-x2l">(غرر الحکم جلد ۱ صفحہ ۴۰۴)</p>
                     <p className="text-2xl ">جسے ٹھیک ٹھیک تربیت دی جائے گی وہ کم لڑکھڑائے گااور جس کی تربیت میں کسر رہ جائے گی وہ زیادہ ٹھوکریں کھائے گا۔</p>
                 </div>
                 <div className="bg-primaryBG flex flex-col justify-center items-center gap-y-8 py-10 rounded-lg">
-                    <h1 className="font-nastaleeqKasheeda text-5xl">ایسوسی ایشن آف مشتاقان نور</h1>
+                    <h1 className="font-nastaleeqKasheeda text-4xl">ایسوسی ایشن آف مشتاقان نور</h1>
                     <p className="text-2xl px-28">ایسوسی ایشن آف مشتاقانِ نور (امن)نے تعلیمات محمد و آل محمد علیہم السلام کی روشنی میں بچوں کی تربیت کے لئے کلاسز کا ایسا نظام روشناس کروایا ہے جو امام محمد باقر (ع) کی سیرت سے متاثر ہو کر قائم کی گئی ہیں۔ امام محمد باقر (ع) نے اسی طرح کی کلاسز کے ذریعے لوگوں میں اسلامی معارف عام کئے اور شاگردوں کی تربیت کے بعد انہیں دور دراز علاقوں میں بھیجاتاکہ وہ بھی درست عقائد لوگوں تک پہنچائیں ۔</p>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-y-8 py-20">
@@ -23,27 +23,27 @@ export default function Home() {
                         اس لیے ضروری ہے کہ بچپن ہی سے ایسی تعلیم دی جائے جو ان کے ذہن کو مثبت سمت میں لے جائے اور غلط سوچ سے بچائے۔ تعلیم کا مقصد صرف دنیاوی کامیابی نہیں ہونا چاہیے، بلکہ دینی اور اخلاقی تربیت کو بھی اہمیت دی جانی چاہیے۔ بچوں کو ابتدا سے دین، خدا کی عظمت اور زندگی کے مقصد سے آگاہ کرنا ضروری ہے۔</p>
                 </div>
                 <div className="bg-primaryBG flex flex-col items-center gap-y-8 py-10 rounded-lg">
-                    <h1 className="font-nastaleeqKasheeda text-5xl"><span>:</span>کلاس کے مختلف درجات</h1>
+                    <h1 className="font-nastaleeqKasheeda text-4xl"><span>:</span>کلاس کے مختلف درجات</h1>
                     <div className="flex lg:gap-x-48">
                         <div>
                             <img src="IC.png" alt="IC Class" className="h-40" />
                             <h2 className="text-3xl mt-10 font-nastaleeqKasheeda">آی سی کلاسز</h2>
-                            <p className="text-lg mt-3 text-[#4C4C4C]">عمر ۱۲ سے۱۵ سال</p>
+                            <p className="text-xl mt-3 text-[#4C4C4C]">عمر ۱۲ سے۱۵ سال</p>
                         </div>
                         <div>
                             <img src="Pre-IC.png" alt="IC Class" className="h-40" />
                             <h2 className="text-3xl mt-10 font-nastaleeqKasheeda">پری آی سی کلاسز</h2>
-                            <p className="text-lg mt-3 text-[#4C4C4C]">عمر  ۹ سے ۱۱ سال</p>
+                            <p className="text-xl mt-3 text-[#4C4C4C]">عمر  ۹ سے ۱۱ سال</p>
                         </div>
                         <div>
                             <img src="Quran-class.png" alt="IC Class" className="h-40" />
                             <h2 className="text-3xl mt-10 font-nastaleeqKasheeda">قرآن کلاسز</h2>
-                            <p className="text-lg mt-3 text-[#4C4C4C]">عمر ۶ سے۸ سال</p>
+                            <p className="text-xl mt-3 text-[#4C4C4C]">عمر ۶ سے۸ سال</p>
                         </div>
                     </div>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-y-8 py-20">
-                    <h1 className="font-nastaleeqKasheeda text-5xl">کلاس میں شمولیت کا فارم</h1>
+                    <h1 className="font-nastaleeqKasheeda text-4xl">کلاس میں شمولیت کا فارم</h1>
                     <h2 className="text-xl mt-2">براہ کرم داخلہ کی درخواست کے لیے اپنے بچے کی معلومات درج کریں۔</h2>
                     <form className="font-nastaleeqKasheeda w-1/2 space-y-5">
                         <div className="flex w-full justify-between">
