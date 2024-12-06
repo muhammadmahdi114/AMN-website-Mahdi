@@ -63,14 +63,14 @@ export default function Header() {
                 <div key={item.id} className="my-2 font-nastaleeqRegular">
                     <button
                         onClick={() => handleMainItemClick(item)}
-                        className={`relative flex text-lg font-semibold items-center gap-x-2 px-6 py-2 w-full 
-                            ${activeSection === item.name ? "text-primary" : "text-black"}
-                        `}
+                        className={`relative flex text-xl font-semibold items-center gap-x-2 px-6 py-2 w-full 
+                    ${activeSection === item.name ? "text-primary" : "text-black"}
+                `}
                     >
                         <span>{item.name}</span>
                         {activeSection === item.name && (
                             <span
-                                className="absolute bottom-[-3px] left-0 w-full h-[2px] bg-primary"
+                                className="absolute bottom-[-3px] left-1/2 transform -translate-x-1/2 w-1/2 h-[2px] bg-primary transition-all duration-300 ease-in-out"
                             ></span>
                         )}
                     </button>
@@ -87,5 +87,6 @@ export default function Header() {
                 />
             </div>
         </div>
+
     );
 }
