@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-
+import logo from '../../Assets/images/Amn-Logo 1.svg'
 export default function Header() {
     const [activeSection, setActiveSection] = useState(null);
     const navigate = useNavigate();
@@ -11,13 +11,13 @@ export default function Header() {
 
         if (currentPath === "/") {
             setActiveSection("صفحہ اول");
-        } else if (currentPath === "/taaruf") {
+        } else if (currentPath.startsWith( "/taaruf")) {
             setActiveSection("تعارف");
-        } else if (currentPath === "/tableeghat") {
+        } else if (currentPath.startsWith("/tableeghat")) {
             setActiveSection("تبلیغات");
-        } else if (currentPath === "/tazakurat") {
+        } else if (currentPath.startsWith("/tazakurat")) {
             setActiveSection("تذکرات");
-        } else if (currentPath === "/munasibat") {
+        } else if (currentPath.startsWith("/munasibat")) {
             setActiveSection("مناسبات");
         }
 
@@ -78,7 +78,7 @@ export default function Header() {
             ))}
             <div className="absolute right-20 top-4">
                 <img
-                    src="logo.png"
+                    src={logo}
                     alt="Logo"
                     className="h-[60px]"
                     onClick={() => {

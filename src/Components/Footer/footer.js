@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="flex justify-end items-start text-end gap-x-10 pb-20 border-b">
                 <div className="flex gap-x-28 px-20">
                     <div className="space-y-5">
-                        <button className="text-2xl font-nastaleeqKasheeda" onClick={()=>{navigate("/munasibat")}}>مناسبات</button>
+                        <button className="text-2xl font-nastaleeqKasheeda cursor-pointer" onClick={()=>{navigate("/munasibat")}}>مناسبات</button>
                         <div className="text-grayFooter space-y-3">
                             <p>محرم الحرام</p>
                             <p>غدیر</p>
@@ -17,7 +17,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className="space-y-5">
-                        <button className="text-2xl font-nastaleeqKasheeda" onClick={()=>{navigate("/tazakurat")}}>تذکرات</button>
+                        <button className="text-2xl font-nastaleeqKasheeda cursor-pointer" onClick={()=>{navigate("/tazakurat")}}>تذکرات</button>
                         <div className="text-grayFooter space-y-3">
                             <p>ہمارے بارے میں</p>
                             <p>یاد امام</p>
@@ -25,15 +25,15 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className="space-y-5">
-                        <button className="text-2xl font-nastaleeqKasheeda" onClick={()=>{navigate("/tableeghat")}}>تبلیغات</button>
+                        <button className="text-2xl font-nastaleeqKasheeda cursor-pointer" onClick={()=>{navigate("/tableeghat")}}>تبلیغات</button>
                         <div className="text-grayFooter space-y-3">
                             <p>نور ڈائری</p>
-                            <p>نور عصر مجلہ</p>
+                            <p onClick={()=>{navigate("/tableeghat/mujallah")}} className=" cursor-pointer">نور عصر مجلہ</p>
                             <p>مطبعات</p>
                         </div>
                     </div>
                     <div className="space-y-5">
-                        <button className="text-2xl font-nastaleeqKasheeda" onClick={()=>{navigate("/taaruf")}}>تعارف</button>
+                        <button className="text-2xl font-nastaleeqKasheeda cursor-pointer" onClick={()=>{navigate("/taaruf")}}>تعارف</button>
                         <div className="text-grayFooter space-y-3">
                             <p>ہمارے بارے میں</p>
                             <p>کلاسس کا تعارف</p>
