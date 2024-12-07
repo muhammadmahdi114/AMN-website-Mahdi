@@ -58,14 +58,14 @@ export default function Header() {
     };
 
     return (
-        <div className="fixed top-0 bg-primaryBG w-full h-28 flex items-center justify-center">
+        <div className="fixed top-0 bg-primaryBG w-full h-[88px] flex items-center justify-center">
             {menuItems.map((item) => (
                 <div key={item.id} className="my-2 font-nastaleeqRegular">
                     <button
                         onClick={() => handleMainItemClick(item)}
-                        className={`relative flex text-xl font-semibold items-center gap-x-2 px-6 py-2 w-full 
-                    ${activeSection === item.name ? "text-primary" : "text-black"}
-                `}
+                        className={`relative flex text-lg font-semibold items-center gap-x-2 px-6 py-2 w-full 
+                            ${activeSection === item.name ? "text-primary" : "text-black"}
+                        `}
                     >
                         <span>{item.name}</span>
                         {activeSection === item.name && (
@@ -80,7 +80,7 @@ export default function Header() {
                 <img
                     src="logo.png"
                     alt="Logo"
-                    className="h-20"
+                    className="h-[60px]"
                     onClick={() => {
                         navigate("/");
                     }}
