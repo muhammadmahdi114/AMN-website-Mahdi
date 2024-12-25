@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import logo from '../../Assets/images/Amn-Logo 1.svg'
+
 export default function Header() {
     const [activeSection, setActiveSection] = useState(null);
     const navigate = useNavigate();
@@ -58,7 +59,7 @@ export default function Header() {
     };
 
     return (
-        <div className="fixed top-0 bg-primaryBG w-full h-[88px] flex items-center justify-center">
+        <div className="sticky top-0 bg-primaryBG z-10 w-full h-[88px] flex items-center justify-center">
             {menuItems.map((item) => (
                 <div key={item.id} className="my-2 font-nastaleeqRegular">
                     <button
@@ -87,6 +88,5 @@ export default function Header() {
                 />
             </div>
         </div>
-
     );
 }
