@@ -8,10 +8,12 @@ import writing from '../../Assets/images/writing.svg'
 import nimaz from '../../Assets/images/nimaz.svg'
 import book from '../../Assets/images/book.svg'
 import mahasba from '../../Assets/images/mahasba.svg'
+import { useNavigate } from "react-router-dom";
 
 
 
 export default function Tableeghat() {
+    const navigate = useNavigate()
     return (
         <>
 
@@ -19,7 +21,7 @@ export default function Tableeghat() {
             <div className="bg-white min-h-screen w-full mt-28 px-5 sm:px-10 md:px-16 lg:px-20 text-black text-center font-nastaleeqRegular font-normal">
                 <div className="pt-10 sm:pt-16 md:pt-20">
                     <div className="bg-primaryBG rounded-3xl py-8 sm:py-10 md:py-12 px-5 sm:px-10 md:px-20">
-                        <div className="flex flex-col sm:flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-start">
+                        <div className="flex flex-col sm:flex-col lg:flex-row justify-center lg:justify-around items-center lg:items-start">
                             <img
                                 src={diary}
                                 alt="Diary 2024"
@@ -37,26 +39,26 @@ export default function Tableeghat() {
                     <div className='flex flex-col items-center mt-12 '>
                         <p className='font-nastaleeqRegular text-5xl font-normal mb-6'>موضوعات</p>
                         <div className="flex flex-row-reverse justify-around align-middle rtl w-full max-w-screen-lg">
-                            <ul className="font-nastaleeqRegular list-disc list-inside p-2 text-right text-2xl decoration-1 leading-10" dir="rtl">
-                                <li>حصولِ علم</li>
-                                <li>غوروفکر</li>
-                                <li>تعارف امامؑ میں سعی</li>
-                                <li>موضوع نمبر ۴</li>
-                                <li>موضوع نمبر ۵</li>
+                            <ul className="font-nastaleeqRegular list-disc list-inside p-2 text-right text-2xl decoration-1 leading-10 cursor-pointer" dir="rtl">
+                                <li onClick={()=>{navigate('/tableeghat/articleDetail')}}>حصولِ علم</li>
+                                <li onClick={()=>{navigate('/tableeghat/articleDetail')}}>غوروفکر</li>
+                                <li onClick={()=>{navigate('/tableeghat/articleDetail')}}>تعارف امامؑ میں سعی</li>
+                                <li onClick={()=>{navigate('/tableeghat/articleDetail')}}>موضوع نمبر ۴</li>
+                                <li onClick={()=>{navigate('/tableeghat/articleDetail')}}>موضوع نمبر ۵</li>
                             </ul>
-                            <ul className="font-nastaleeqRegular list-disc list-inside p-2 text-right text-2xl leading-10" dir="rtl">
-                                <li>تعارف امامؑ میں سعی</li>
-                                <li>محافظہ ٔ ولایت</li>
-                                <li>دشمن و شیعہ امام ؑ کی معرفت</li>
-                                <li>موضوع نمبر ۴</li>
-                                <li>موضوع نمبر ۵</li>
+                            <ul className="font-nastaleeqRegular list-disc list-inside p-2 text-right text-2xl leading-10 cursor-pointer" dir="rtl">
+                                <li onClick={()=>{navigate('/tableeghat/articleDetail')}}>تعارف امامؑ میں سعی</li>
+                                <li onClick={()=>{navigate('/tableeghat/articleDetail')}}>محافظہ ٔ ولایت</li>
+                                <li onClick={()=>{navigate('/tableeghat/articleDetail')}}>دشمن و شیعہ امام ؑ کی معرفت</li>
+                                <li onClick={()=>{navigate('/tableeghat/articleDetail')}}>موضوع نمبر ۴</li>
+                                <li onClick={()=>{navigate('/tableeghat/articleDetail')}}>موضوع نمبر ۵</li>
                             </ul>
-                            <ul className="font-nastaleeqRegular list-disc list-inside p-2 text-right text-2xl leading-10" dir="rtl">
-                                <li>غیبت و تہمت سے دُوری</li>
-                                <li>اگر امام زمانؑہ نہ ہوں</li>
-                                <li>پیغام عاشور</li>
-                                <li>موضوع نمبر ۴</li>
-                                <li>موضوع نمبر ۵</li>
+                            <ul className="font-nastaleeqRegular list-disc list-inside p-2 text-right text-2xl leading-10 cursor-pointer"  dir="rtl">
+                                <li onClick={()=>{navigate('/tableeghat/articleDetail')}}>غیبت و تہمت سے دُوری</li>
+                                <li onClick={()=>{navigate('/tableeghat/articleDetail')}}>اگر امام زمانؑہ نہ ہوں</li>
+                                <li onClick={()=>{navigate('/tableeghat/articleDetail')}}>پیغام عاشور</li>
+                                <li onClick={()=>{navigate('/tableeghat/articleDetail')}}>موضوع نمبر ۴</li>
+                                <li onClick={()=>{navigate('/tableeghat/articleDetail')}}>موضوع نمبر ۵</li>
                             </ul>
                         </div>
 
