@@ -29,7 +29,7 @@ export default function Footer() {
                         <div className="text-grayFooter space-y-3">
                             <p>نور ڈائری</p>
                             <p onClick={()=>{navigate("/tableeghat/mujallah")}} className=" cursor-pointer">نور عصر مجلہ</p>
-                            <p>مطبعات</p>
+                            <p onClick={()=>{navigate("/tableeghat/mutabaat")}} className=" cursor-pointer">مطبعات</p>
                         </div>
                     </div>
                     <div className="space-y-5">
